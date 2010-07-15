@@ -27,7 +27,7 @@
 jQuery.fn.labelify = function(settings) {
   settings = jQuery.extend({
     text: "title",
-    labelledClass: ""
+    labelledClass: "label"
   }, settings);
   var lookups = {
     title: function(input) {
